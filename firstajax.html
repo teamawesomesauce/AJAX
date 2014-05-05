@@ -1,0 +1,14 @@
+<!DOCTYPE html> // this is the tutorial found on https://developer.apple.com/library/safari/documentation/AppleApplications/Conceptual/SafariJSProgTopics/Articles/XHR.html
+<meta charset="UTF-8" />
+<html>
+<head>
+<script type="text/javascript">
+var myRequest = new XMLHttpRequest();
+myRequest.open("GET", "http://www.apple.com/");
+myRequest.setRequestHeader("Cache-Control", "no-cache");
+myRequest.send();
+
+</script>
+</head>
+<body>
+</html>
